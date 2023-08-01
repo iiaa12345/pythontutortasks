@@ -1,3 +1,8 @@
 from math import *
 
-print(ceil(int(input()) / 2) + ceil(int(input()) / 2) + ceil(int(input()) / 2))
+
+a = ceil(int(input()) / 2)
+b = ceil(int(input()) / 2)
+c = ceil(int(input()) / 2)
+
+print(a + b + c)
