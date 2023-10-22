@@ -1,0 +1,1 @@
+print(" ".join([str(i) for i in sorted([int(i) for i in set(input().split()) & set(input().split())])]))
